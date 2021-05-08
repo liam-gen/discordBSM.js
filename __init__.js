@@ -3,7 +3,7 @@
 const discord = require('discord.js')
 const client = new discord.Client()
 
-let commands = { 'discordBSM': 'https://github.com/liamgen/discordBSM.js' }
+let commands = { 'discordBSM': 'https://github.com/liam-gen/discordBSM.js' }
 
 client.on('message', message => {
     for (message.content.split(" ")[0] in Object.keys(commands)){
